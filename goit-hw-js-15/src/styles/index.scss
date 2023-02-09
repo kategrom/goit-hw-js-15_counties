@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+textarea {
+  font: inherit;
+}
+
+#searchInput{
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding: 14px 24px;
+  cursor: pointer;
+}
+
+#searchInput:hover,
+#searchInput:focus,
+#searchInput:active{
+  border-color:  rgb(108, 108, 189);
+}
